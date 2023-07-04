@@ -1,3 +1,5 @@
+/* We will create new table */
+
 CREATE TABLE account(
      user_id SERIAL PRIMARY KEY,
      username VARCHAR(50) UNIQUE NOT NULL,
